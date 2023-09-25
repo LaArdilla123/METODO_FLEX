@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(202, 202, 202);
+}
+header{
+    background-color: rgb(140, 255, 217);
+    width: 1920px;
+    height: 100px;
+}
+ header h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: verdana;
+ }
+
+#side {
+    display: flex;
+    width: 400px;
+    border: 1px solid #ff0000;
+    margin-top: 15px;
+ }
+.imagenes{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#info{
+    float: right;
+    display: inline;
+    width: 1400px;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.escep{
+    font-family: verdana;
+    margin-top: 5px;
+}
+.escepP{
+    font-family: verdana;
+    margin-top: 20px;
+}
+.epi{
+    font-family: verdana;
+    margin-top: 60px;
+}
+.epiP{
+    font-family: verdana;
+    margin-top: 20px;
+}
+.esto{
+    font-family: verdana;
+    margin-top: 220px;
+}
+.estoP{
+    font-family: verdana;
+    margin-top: 20px;
+}
+.cini{
+    font-family: verdana;
+    margin-top: 120px;
+}
+.ciniP{
+    font-family: verdana;
+    margin-top: 20px;
+}
